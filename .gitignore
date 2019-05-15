@@ -1,0 +1,19 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+data
+node_modules
+stats.json
+app.log
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+./idea
+
+# Don't upload user files
+app/uploads
+.vscode/settings.json
+.eslintrc
+.vscode/launch.json
